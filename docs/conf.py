@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import os
 import sys
 from datetime import datetime
@@ -43,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Flask-WTF'
-copyright = '2010 - {0}'.format(datetime.utcnow().year)
+copyright = f'2010 - {datetime.utcnow().year}'
 author = 'Dan Jacob'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -132,7 +130,7 @@ except ImportError:
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = '{0} {1}'.format(project, version)
+html_title = f'{project} {version}'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -337,8 +335,8 @@ texinfo_documents = [
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
-    'flask': ('http://flask.pocoo.org/docs/latest/', None),
-    'werkzeug': ('http://werkzeug.pocoo.org/docs/latest/', None),
-    'wtforms': ('https://wtforms.readthedocs.io/en/latest/', None),
+    'flask': ('https://flask.palletsprojects.com/en/1.1.x/', None),
+    'werkzeug': ('https://werkzeug.palletsprojects.com/en/1.0.x/', None),
+    'wtforms': ('https://wtforms.readthedocs.io/en/2.3.x/', None),
     'flask_uploads': ('https://pythonhosted.org/Flask-Uploads', None),
 }
