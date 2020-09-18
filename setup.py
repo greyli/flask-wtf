@@ -22,6 +22,7 @@ setup(
         'Flask',
         'WTForms',
         'itsdangerous',
+        'email-validator',
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
